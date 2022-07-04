@@ -36,7 +36,7 @@ a {
 a:hover{
     text-decoration: underline;
 }
-
+ 
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -44,6 +44,10 @@ section{
     padding-left: 30px;
     font-size: 3vw;
 } 
+
+section > p{
+    padding-bottom: 2em ;
+}
 
 section.normal{
     background-color: rgb(192, 192, 252);
@@ -54,13 +58,24 @@ section.imagem{
 
     background-color: rgb(0, 0, 252);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(46, 44, 44, 0.74);
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     display: inline-block;
-    background-color: rgb(8, 13, 73);
+    background-color: rgba(10, 19, 114, 0.555);
+    text-shadow: 1px 1px 0px  black;
     
 
+}
+section#img01{
+    background-image: url('../imagem/butterfly-g8826584ec_1920.jpg');
+    background-position: left 65% top 50%;
+}
+section#img02{
+    background-image: url('../imagem/a-book-gccced64d5_1920.jpg');
+    background-position: left 50%;
 }
 
 footer{
